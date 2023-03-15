@@ -30,10 +30,26 @@ console.log(a++)        // increment operator
 console.log(a--)        // decrement operator
 
 // function 
-function getGrocery() {     // creating the function
-    console.log("Go to grocery shop")
-    console.log("Get the grocery")
+function getmilk() {     // creating the function
+    console.log("Go to milk shop")
+    console.log("Get the milk")
     console.log("come back")
 }
 
-getGrocery()                // calling the function
+getmilk()                // calling the function
+
+// function with arugments 
+function bottlesOfMilk(money) {
+    alert("Each bottle costs 2 dollars")
+    console.log("I have " + "this much money");
+    console.log("I can buy " + Math.floor(money/2) + " bottles of milk")
+}
+
+bottlesOfMilk(33);
+
+// function with return values 
+function leftMoney(money) {
+    return money % 2; 
+}
+console.log(leftMoney(19))
+
