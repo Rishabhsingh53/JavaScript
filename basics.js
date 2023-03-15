@@ -20,8 +20,20 @@ console.log(Myname.toUpperCase())
 console.log(Myname.toLowerCase())
 
 // operators 
+var a = 1;
 console.log(2 + 3)      // addition
 console.log(10 - 4)     // subtraction
 console.log(4 * 5)      // multiplication 
 console.log(5 / 1 )     // division operator
 console.log(10 % 3)     // modulo 
+console.log(a++)        // increment operator
+console.log(a--)        // decrement operator
+
+// function 
+function getGrocery() {     // creating the function
+    console.log("Go to grocery shop")
+    console.log("Get the grocery")
+    console.log("come back")
+}
+
+getGrocery()                // calling the function
