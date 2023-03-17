@@ -45,3 +45,12 @@ document.getElementsByTagName("li")[2].style.color = "red";
 
 5. 
 document.querySelectorAll() - similar to querySelector except for the fact that it returns all the item which matches the given condition
+
+
+classList property is used to add classes to element and to change behaviour on the fly. 
+methods : 
+1. add 
+2. remove 
+3. toggle 
+
+the css class code remains in the css file only but if we want to apply it on any element we can do this by javascript 
