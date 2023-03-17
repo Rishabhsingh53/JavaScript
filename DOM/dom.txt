@@ -1,0 +1,9 @@
+DOM ( Document Object Model )
+
+DOM catalogs the web page into  individual objects that we can select and manipulate 
+The task of converting a web page into a DOM is done by web browser at the time of loading 
+
+DOM is represented in a tree like structure. 
+var heading = document.firstElementChild.firstElementChild.querySelector("title"); 
+here heading points to title tag 
+heading.innerHTML = "DOM"
