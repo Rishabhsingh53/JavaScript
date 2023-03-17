@@ -60,3 +60,8 @@ Text manipulation
 we have two properties textContent and innerHTML
 innerHTML returns all of the html code that is between the specified html element while textContent only applies to the text. 
 this means we can even change the html code using innerHTML
+
+to change the attribute property of the html tag / element:
+document.querySelector("a").attributes;                     to see all the attributes associated with the element anchor
+document.querySelector("a").getAttribute("id");             to get the value of the attribute id 
+document.querySelector("a").setAttribute("id","a");         to set the value for the attribute
