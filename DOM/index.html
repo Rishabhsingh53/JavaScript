@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DOM</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- when body is loaded onload event will be triggered --> 
+    <body onload="alert('Inline Js')">     <!-- inline javascript -->
+        <!-- internal javascript -->
+        <script type="text/javascript"> 
+            alert("Internal Js");
+        </script>
+        <!-- external javascript -->
+        <script src="index.js"></script>
+        <!-- note: always include javascript at the end of the body tag so that all of our content is loaded up first
+        and our website doesn't take much time to load. -->
+    </body>
+</html>
