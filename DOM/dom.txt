@@ -4,6 +4,44 @@ DOM catalogs the web page into  individual objects that we can select and manipu
 The task of converting a web page into a DOM is done by web browser at the time of loading 
 
 DOM is represented in a tree like structure. 
-var heading = document.firstElementChild.firstElementChild.querySelector("title"); 
-here heading points to title tag 
-heading.innerHTML = "DOM"
+Every Object has properties and method 
+both properties and method are accessed using .(period)
+
+Various ways of selecting html elements:
+
+1.
+document.querySelector() - searching and returning the very first element within the document that matches the given selector.
+
+document.firstElementChild.firstElementChild.querySelector("title");   for tags
+document.firstElementChild.firstElementChild.querySelector("#title")   for id 
+document.firstElementChild.firstElementChild.querySelector(".title")   for class
+
+document.firstElementChild.firstElementChild.querySelector("title").innerHTML = "DOM"
+
+We can even combine two or more selectors 
+for eg. 
+document.querySelector("#title .item")
+document.querySelector("li.item")
+
+
+2. 
+document.getElementById()  -  returns a single element because Every tag has a unique id. 
+document.getElementById("title");
+document.getElementById("title").innerHTML = "GOOD BYE";
+
+
+3. 
+document.getElementsByClassName()  -  It returns an array of element which belongs to that class.
+
+document.getElementsByClassName("btn")
+document.getElementsByClassName("btn")[0].style.color = "red";
+
+
+4. 
+document.getElementsByTagName("li") 
+returns a array because there are 3 li tags.
+
+document.getElementsByTagName("li")[2].style.color = "red"; 
+
+5. 
+document.querySelectorAll() - similar to querySelector except for the fact that it returns all the item which matches the given condition
