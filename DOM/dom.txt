@@ -54,3 +54,9 @@ methods :
 3. toggle 
 
 the css class code remains in the css file only but if we want to apply it on any element we can do this by javascript 
+
+
+Text manipulation 
+we have two properties textContent and innerHTML
+innerHTML returns all of the html code that is between the specified html element while textContent only applies to the text. 
+this means we can even change the html code using innerHTML
