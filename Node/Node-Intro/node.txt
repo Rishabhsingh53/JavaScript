@@ -1,0 +1,18 @@
+node - it runs .js on the server instead of the browser
+with node we have the command over complete hardware
+without node we can't run .js file independetely.
+
+server is soft/hard which provides services to the client when requested
+
+port -  imagine it like a fm radio where we enter the frequency to listen to particular channel.
+
+app = express()  -- it returns a object of express()
+
+What does a GET request do?
+A GET request, in simple terms, is a way for you to grab data from a data source with the help of the internet.
+
+NODEMON 
+it is a useful tool which checks if we made any changes in the code. If we did it automatically restarts the server instead of us doing
+it manually.
+Note that server is always active even when we are making changes 
+
