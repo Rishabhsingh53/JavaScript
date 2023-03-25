@@ -1,0 +1,69 @@
+API 
+with API we can access funionality of someone's written code and embedd it in our code.
+
+
+endpoint
+path 
+parameters
+authentication 
+
+
+Every api which interacts with external server will have a endpoint.
+example for api endpoint:
+
+/this-is-an-endpoint
+/another/endpoint
+/some/other/endpoint
+/login
+/accounts
+/cart/items
+
+and when put under a domain, it would look like:
+
+https://example.com/this-is-an-endpoint
+https://example.com/another/endpoint
+https://example.com/some/other/endpoint
+https://example.com/login
+https://example.com/accounts
+https://example.com/cart/items
+
+Can be either http or https, we use https in the example.
+
+Also endpoint can be different for different HTTP methods, for example:
+
+GET /item/{id}
+PUT /item/{id}
+would be two different endpoints - one for retrieving (as in "cRud" abbreviation), and the other for updating (as in "crUd")
+
+
+
+
+API VS ENDPOINT 
+Sure! If you're new to APIs, it can be a bit confusing to understand the difference between an API and an endpoint, so let me try to explain it in simple terms.
+
+An API (Application Programming Interface) is a set of rules, protocols, and tools that allows software applications to interact with each other. It's essentially a way for different software systems to communicate and exchange data with each other.
+
+Think of an API as a waiter in a restaurant who takes your order and relays it to the kitchen. The waiter is the intermediary between you (the client) and the kitchen (the service provider). Similarly, an API acts as an intermediary between two software systems, allowing them to communicate and exchange data.
+
+An endpoint, on the other hand, is a specific URL that represents a specific resource or action in a web-based API. It's the address that clients use to access the API and interact with its resources.
+
+Continuing with the restaurant analogy, an endpoint is like a menu item on the restaurant menu. It's a specific dish that you can order from the waiter. Similarly, an endpoint is a specific resource or action that clients can access and perform via the API.
+
+So, in summary, an API is a set of rules and protocols that allows software applications to interact with each other, while an endpoint is a specific URL that represents a specific resource or action in the API. Think of the API as the waiter who takes your order, and the endpoint as the specific dish that you order from the menu.
+
+
+
+
+
+
+
+API VS ENDPOINT  🥇
+Here's an example to illustrate the difference:
+
+API endpoint: https://api.example.com/v1/users/123
+
+https://api.example.com is the base URL
+/v1/users/123 is the API path that specifies the resource (user with ID 123)
+In this example, the API endpoint is the complete URL, while the API path is a part of that URL that specifies the specific resource requested.
+
+In summary, while API endpoints and API paths are related concepts, they represent different parts of the URL that clients use to access and interact with an API. The endpoint is the complete URL that represents the API service or functionality, while the path is a specific part of that URL that identifies the requested resource or action.
