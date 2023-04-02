@@ -2,11 +2,30 @@ API
 with API we can access funionality of someone's written code and embedd it in our code.
 
 
-endpoint
-path 
-parameters
-authentication 
+API : It acts a intermediary between two softwares   i.e. waiter
+endpoint : The services which that api provides is given by endpoint  i.e. menu item
+path     : complete url of the api 
+parameters :  after ? seperated by & 
+authentication - includes biling and verification 
 
+postman is an api testing application which is used for simplying the api url generation instead of using browser and editing the url in really congested manner and not so efficient
+
+JavaScript object is a key value pair(like Python dict)
+but its keys need not be strings and even if they are str
+
+we need not use ' '(they can have functions, objects , arrays as values).
+
+JSON can be either like an array or an object, 
+if its like an object values can never be functions
+
+and keys need to be only str that too in ' '(quotes) strictly
+
+and at last this object/array is itself quoted hence json is a string.
+
+to convert JSON(or JSON string, same thing) to js object:
+JSON.parse()
+to convert from js object to JSON 
+JSON.stringify()
 
 Every api which interacts with external server will have a endpoint.
 example for api endpoint:
@@ -37,23 +56,13 @@ would be two different endpoints - one for retrieving (as in "cRud" abbreviation
 
 
 
-
 API VS ENDPOINT 
 Sure! If you're new to APIs, it can be a bit confusing to understand the difference between an API and an endpoint, so let me try to explain it in simple terms.
-
 An API (Application Programming Interface) is a set of rules, protocols, and tools that allows software applications to interact with each other. It's essentially a way for different software systems to communicate and exchange data with each other.
-
 Think of an API as a waiter in a restaurant who takes your order and relays it to the kitchen. The waiter is the intermediary between you (the client) and the kitchen (the service provider). Similarly, an API acts as an intermediary between two software systems, allowing them to communicate and exchange data.
-
 An endpoint, on the other hand, is a specific URL that represents a specific resource or action in a web-based API. It's the address that clients use to access the API and interact with its resources.
-
 Continuing with the restaurant analogy, an endpoint is like a menu item on the restaurant menu. It's a specific dish that you can order from the waiter. Similarly, an endpoint is a specific resource or action that clients can access and perform via the API.
-
 So, in summary, an API is a set of rules and protocols that allows software applications to interact with each other, while an endpoint is a specific URL that represents a specific resource or action in the API. Think of the API as the waiter who takes your order, and the endpoint as the specific dish that you order from the menu.
-
-
-
-
 
 
 
